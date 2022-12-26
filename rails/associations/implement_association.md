@@ -63,6 +63,13 @@ end
 #### Note 
 Again if we had followed conventions we would have just added ``` belongs_to :user ```
 
+### Useful links
+- [How to implement one to many relationship between two tables](https://human-se.github.io/rails-demos-n-deets-2021/demos/one-to-many-associations/)
+
+## Many to many relationship 
+### Useful links
+- [How to implement many to many relationship between two tables](https://human-se.github.io/rails-demos-n-deets-2021/demos/many-to-many-associations/)
+
 
 
 

@@ -60,3 +60,6 @@ $ rails generate devise MODEL
 ```
 <%= button_to "logout", destroy_user_session_path, method: :delete,class:"btn btn-light" %>
 ```
+
+### Useful links
+- [Official guide from devise repositort](https://github.com/heartcombo/devise#getting-started)

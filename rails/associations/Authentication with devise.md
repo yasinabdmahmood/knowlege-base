@@ -56,3 +56,7 @@ $ rails generate devise MODEL
     '/users/sign_in'
   end
 ```
+- In order to have a way to log out use the button below some where on the page
+```
+<%= button_to "logout", destroy_user_session_path, method: :delete,class:"btn btn-light" %>
+```

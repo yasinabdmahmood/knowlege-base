@@ -48,6 +48,11 @@ This will redirect the user to the `/photos` URL.
 redirect_to @photo
 ```
 This will redirect the user to the URL of the `@photo` object (e.g. `/photos/1` if @photo has an ID of `1`).
+<br>
+```ruby
+redirect_back(fallback_location: '/')
+```
+This will redirect the user back to the previous URL (if available). If there is no previous URL, it will redirect to the fallback_location (in this case, the `root` URL).
 
 
 

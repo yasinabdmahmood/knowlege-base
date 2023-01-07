@@ -29,7 +29,9 @@ This will generate a link like `/photos/1` (assuming @photo has an ID of `1`).
 ```ruby
 <%= link_to 'Edit photo', edit_photo_path(@photo) %>
 ```
+This will generate a link like `/photos/1/edit` (assuming `@photo` has an ID of `1`).
 <br>
+
 ```ruby
 <%= form_for @photo, url: photo_path(@photo), method: :delete do |f| %>
   <%= f.submit 'Delete' %>
@@ -38,7 +40,9 @@ This will generate a link like `/photos/1` (assuming @photo has an ID of `1`).
 This will create a form that submits a `DELETE` request to the URL `/photos/1` (assuming @photo has an ID of `1`).
 
 <br>
+
 ## Redirects:
+
 ```ruby
 redirect_to '/photos'
 ```

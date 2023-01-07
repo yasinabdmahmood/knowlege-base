@@ -37,6 +37,19 @@ This will generate a link like `/photos/1` (assuming @photo has an ID of `1`).
 ```
 This will create a form that submits a `DELETE` request to the URL `/photos/1` (assuming @photo has an ID of `1`).
 
+<br>
+## Redirects:
+```ruby
+redirect_to '/photos'
+```
+This will redirect the user to the `/photos` URL.
+<br>
+```ruby
+redirect_to @photo
+```
+This will redirect the user to the URL of the `@photo` object (e.g. `/photos/1` if @photo has an ID of `1`).
+
+
 
 
 

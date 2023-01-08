@@ -12,3 +12,19 @@ You can also create a regular expression using the forward slash (/) character. 
 const regex = /^hello.*world$/;
 ```
 <br>
+To use a regular expression, you can call methods such as `test`, `match`, `search`, and `replace` on a string. Here are some examples:
+```JavaScript
+const str = "hello world";
+
+// Test if the string matches the regular expression
+console.log(regex.test(str)); // outputs true
+
+// Get an array of all matches
+console.log(str.match(regex)); // outputs ["hello world"]
+
+// Get the index of the first match
+console.log(str.search(regex)); // outputs 0
+
+// Replace all matches with a new string
+console.log(str.replace(regex, "hi universe")); // outputs "hi universe"
+```

@@ -28,3 +28,10 @@ console.log(str.search(regex)); // outputs 0
 // Replace all matches with a new string
 console.log(str.replace(regex, "hi universe")); // outputs "hi universe"
 ```
+<br>
+
+Regular expressions can also include special characters called "metacharacters" that allow you to specify more complex patterns. For example, the "." character matches any single character, and the "*" character matches zero or more of the preceding character. Here's an example of a regular expression that matches any string that contains a sequence of three digits:
+```JavaScript
+const regex = /\d{3}/;
+```
+

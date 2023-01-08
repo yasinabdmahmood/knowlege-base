@@ -13,9 +13,9 @@ const regex = /^hello.*world$/;
 ```
 <br>
 To use a regular expression, you can call methods such as `test`, `match`, `search`, and `replace` on a string. Here are some examples:
+
 ```JavaScript
 const str = "hello world";
-
 // Test if the string matches the regular expression
 console.log(regex.test(str)); // outputs true
 

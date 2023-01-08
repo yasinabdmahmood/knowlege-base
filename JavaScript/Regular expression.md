@@ -35,4 +35,7 @@ Regular expressions can also include special characters called "metacharacters" 
 ```JavaScript
 const regex = /\d{3}/;
 ```
+<br>
+You can find a complete list of metacharacters and other regular expression syntax in the documentation for JavaScript's RegExp object.
+
 
